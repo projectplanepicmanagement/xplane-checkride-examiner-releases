@@ -1,5 +1,5 @@
 {
-  "version": 32,
-  "zip_url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/releases/CheckrideExaminer-ppl_asel-v1.zip",
-  "notes": "Version numbering unified: this build and every future update now display as a clean v1, v2, v3... to avoid confusing customers with internal build numbers."
+  "version": 34,
+  "zip_url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/releases/CheckrideExaminer-ppl_asel-v2.zip",
+  "notes": "Security: activating a license key now confirms online that it isn't already in use on another computer (one license per device)."
 }
