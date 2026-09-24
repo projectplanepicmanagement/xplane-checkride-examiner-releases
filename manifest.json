@@ -1,5 +1,5 @@
 {
-  "version": 28,
-  "zip_url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/releases/CheckrideExaminer-ppl_asel-v28.zip",
-  "notes": "PPL/ASEL edition update: takeoff/climb Vx/Vy false-fail fixes (mirrors the earlier landing-task fix)."
+  "version": 29,
+  "zip_url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/releases/CheckrideExaminer-ppl_asel-v29.zip",
+  "notes": "Licenses can now bind to specific ratings (defense in depth for per-rating sales)."
 }
