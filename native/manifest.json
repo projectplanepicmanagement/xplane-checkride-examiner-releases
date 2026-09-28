@@ -1,16 +1,16 @@
 {
-  "version": 2,
-  "notes": "Test release to verify the update mechanism. Includes fixes for update checks on Windows.",
+  "version": 3,
+  "notes": "Security hardening (local server robustness, OS random source, Windows clipboard) and the security and privacy document. Same features as v2.",
   "platforms": {
     "mac": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel-v2.zip",
-      "sha256": "ff94ce21080483a7062df6ddcb4c5c22d0640dd2be1eefa665277b14315c8465",
-      "sig": "8b809f48d55beec3cc2f23b6f685faccdae0aba46364b1aa789ac3fb99719e86b15a0ccf1f5b2e036686fa75f6489ffa640c4de65231cc65d95c41a9b360fb00"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel-v3.zip",
+      "sha256": "75f216630351292e986ffe1c8fbcad298c769635a882c968178d0e3e7f4422fb",
+      "sig": "5c106e75d2eb45bb392c81d6a2cc815a123c53c2df558120f0327b145bc7d4f5c2e0d8ed4723c8449ef24a78663d8b7797c1f8be2e259a8c9365c00a7cfc110d"
     },
     "win": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel-v2.zip",
-      "sha256": "ff94ce21080483a7062df6ddcb4c5c22d0640dd2be1eefa665277b14315c8465",
-      "sig": "2f6bb40db1bea2e94fd62ed216d7abe6e01789c982a43bd05d7b4b61b4acca5eff9aacc3b7c4252a32baf207405d1447d02c502a874d9b6bf1cbb99a6ce85000"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel-v3.zip",
+      "sha256": "75f216630351292e986ffe1c8fbcad298c769635a882c968178d0e3e7f4422fb",
+      "sig": "3e6fbbc08c0b3d90ef54affc99e6ed79e5e3c57c74f18d7f190f0fd12c3a192e30ce6d7fb007c249e889921f7b24e4ad57c7c04acf051f3fc60c76dfb3d88005"
     }
   }
 }
