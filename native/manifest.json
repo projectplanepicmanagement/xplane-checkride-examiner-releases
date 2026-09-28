@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "notes": "Test release to verify the update mechanism. No functional changes.",
+  "platforms": {
+    "mac": {
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel-v2.zip",
+      "sha256": "01648301bd751cffd940e044376e94f86897bb0fa2a67ff2860a12782862633b",
+      "sig": "3b3e65a29b30dd8d03e8d8b4b64dfae8913fd001bd5a13c0d6353414582b58271146d2cd96d6aeecd3d5cc1af49218d235d00092ba702682f67a24c0ae4d1805"
+    },
+    "win": {
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel-v2.zip",
+      "sha256": "01648301bd751cffd940e044376e94f86897bb0fa2a67ff2860a12782862633b",
+      "sig": "c0d535351d49cb49b7c2e9addb3c5f322582f1e76f33f3a0a2ab02ad42e74f8d7fe8d591196748293a90926afdfba32a8804bb2f484af2ffaed6efc7a1db7c01"
+    }
+  }
+}
