@@ -1,16 +1,16 @@
 {
-  "version": 4,
-  "notes": "Periodic re-check while flying (every launch, 14-day offline grace) with license revocation support, a launch-time update check, and a clear warning banner when an update is available.",
+  "version": 5,
+  "notes": "Print / Save as PDF on the report page, and a flight-path map (OpenStreetMap tiles) for completed checkrides. Same PPL/ASEL features as v4.",
   "platforms": {
     "mac": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel-v4.zip",
-      "sha256": "2fa593f5ece11bb4e13c25fee1265752a70fab8cd763ff993da2700f2005d914",
-      "sig": "3bf38d5fb164fbee9df7aef7dd3f2fae9877a1a7113fc24316637dacda57ea5ed5cf9b9f27ac5021913d8ab6c095cc287507a28846d36cae9aa4a768f23b2e0e"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v5.zip",
+      "sha256": "4722a9228b53d725d885ef37e7269962e3c89daa7f0caac4e0789b2a97204c3b",
+      "sig": "982e8dba78705715184adec9d1ca8667b85e95564a362d7e7fb57faa2932d51c247a3cdacc8590362dfb5c21dd1412677e7e8cc16b66da3eec39ffa13b79b306"
     },
     "win": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel-v4.zip",
-      "sha256": "2fa593f5ece11bb4e13c25fee1265752a70fab8cd763ff993da2700f2005d914",
-      "sig": "c07913ac162907b27c1c797b248825ad5c647a70e2192fd8e1cc5b7567096fbe16c30d2061e91712539b181efc2bcf02407d327daf37f9b53ac47804d7c8f604"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v5.zip",
+      "sha256": "4722a9228b53d725d885ef37e7269962e3c89daa7f0caac4e0789b2a97204c3b",
+      "sig": "74a4d6a92b07e027918bde59b2afafb57da69e60967f944dc36cd088c52ed2031517d7fd5dbfcc54bbd61ad62881179d622012a473f986663d890ee25c2d7c04"
     }
   }
 }
