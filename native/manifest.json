@@ -1,16 +1,16 @@
 {
   "version": 6,
-  "notes": "Adds the AMEL rating (PPL/ASEL + AMEL edition), much finer GPS sampling for the flight-path map (every 0.5s instead of 10s), per-task deviation graphs and yoke/rudder/throttle control-input review charts (zoomable, with hover readouts and per-line show/hide toggles), and an update banner that shows what changed with a link to the full version history.",
+  "notes": "Adds the AMEL rating (PPL/ASEL + AMEL edition), much finer GPS sampling for the flight-path map (every 0.5s instead of 10s), per-task deviation graphs and yoke/rudder/throttle control-input review charts (zoomable, with hover readouts and per-line show/hide toggles), and an update banner that shows what changed with a link to the full version history. Also fixes the deviation chart silently disappearing on tasks whose grading didn't start on the very first recorded tick.",
   "platforms": {
     "mac": {
       "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v6.zip",
-      "sha256": "6dc6fefcf151619e6e93574c61ebb1d0865fa962a0fba641ecfc285322b855df",
-      "sig": "59ba4d0881a8a0dbf4a39571d52cd66bdf30933b6b981f1edfbb5cabd9017e576923adeed935ec1667db1dac0311e895663c1936badd2ec9e8b9d4ea98572407"
+      "sha256": "fe1f8b666e97172bc64210d1f6a3256030ac9750fbd0bda488351336eb4e39c5",
+      "sig": "8e0bc6d825d41bd72375e8d135c7f2fc155c5cc5c894d13cac4cd2277faf1581984b8bdc08f692daad6c9921f56fa89ff878f11ee12f1f37a03d8acd4295590a"
     },
     "win": {
       "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v6.zip",
-      "sha256": "6dc6fefcf151619e6e93574c61ebb1d0865fa962a0fba641ecfc285322b855df",
-      "sig": "1287b56e3fa260d4f3ba74d0c1d4882e4276a80d410cecc878ee993767306ab758b4808b618c89335bc56fd1b8f6d55ca09bb1e6c6438bae28459b97d33ae90c"
+      "sha256": "fe1f8b666e97172bc64210d1f6a3256030ac9750fbd0bda488351336eb4e39c5",
+      "sig": "2c9cdd41647f948bd4440c932a19476abc33fbc7ed2bc506b9edb150a5ddc894a45a8f0cf06445a338e3bb6511e70a8b5ac36e7a0cd7bfb9800a7eba751f3903"
     }
   }
 }
