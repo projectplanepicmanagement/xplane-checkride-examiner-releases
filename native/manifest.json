@@ -1,16 +1,16 @@
 {
-  "version": 7,
-  "notes": "Fixes the report page picking a stale 'latest flight' and showing blank garbled rows in flight history (a session's identity was sometimes read from a track/trace line instead of its actual task record). The per-task review now also always charts altitude, airspeed, heading, bank and pitch -- not just whatever a given maneuver's own grading happens to track -- with a legend to show/hide each one, matching the existing control-input chart.",
+  "version": 8,
+  "notes": "Adds several PPL(ASEL/AMEL)-side fixes and features:\n- Fixes the \"Check for Updates\" button: a JS bug made the update-status banner on the report page silently blank (this only affected the update-status display, not grading).\n- Power-On/Power-Off Stall: optional Vso/Vs1 entry in Settings arms the stall off indicated airspeed too, for add-ons whose stall-warning sound never fires.\n- Turns to Headings: the assigned heading and turn direction (left/right) are now shown before you press Ready, not only after.\n- Turns Around a Point: more forgiving circle-completion check, so a normal correction turn no longer prevents the task from ever finishing.\n- Emergency Descent: optional target airspeed in Settings, instead of always grading around whatever speed it happened to be armed at.\n- Normal Approach and Landing now has its own approach-speed setting -- it was incorrectly reusing Short-Field's speed before.\n- Go-Around/Rejected Landing no longer needs Ready: it's watched for throughout the flight and graded whenever it happens.\n- The report page now shows a flight-path map for every flight, not just the latest, and each flight in History has its own page/link.",
   "platforms": {
     "mac": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel_ir-v7.zip",
-      "sha256": "3ea628c9fdfaa31f11a698a410a12eb30b4c82d531876a110d0cfb6769a2ed1b",
-      "sig": "40c3524f24c01a39d05d80196f2461f0060ccba6fff8912ab2d927d367472634a53f93395f6387b906feef34d118a76cabd92edb60df16106cd99ac3637c8103"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel_ir-v8.zip",
+      "sha256": "a4757a95872494f8b001fca25ca24c3a27d4c029e6f07028217a498c0c9888c2",
+      "sig": "7bf9b4d6e04c71cc84f6f2b2e32abbf7210d123e74b8a09d965c8577ebeb8c1ee983e1bd12bd74bd4a97242d776106c27b8fce7b48e181b0678a7b26ba32c502"
     },
     "win": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel_ir-v7.zip",
-      "sha256": "3ea628c9fdfaa31f11a698a410a12eb30b4c82d531876a110d0cfb6769a2ed1b",
-      "sig": "389381ddc83c245f64e2cc8dbc2e71d7a58ae8b1d7dc20bc9f2325dbde8ade8ef253e6e59bb61ee498c8fa254b9d40d70910f067f0c2c0de3bbac48058f88808"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel_ir-v8.zip",
+      "sha256": "a4757a95872494f8b001fca25ca24c3a27d4c029e6f07028217a498c0c9888c2",
+      "sig": "7c104483289aafbdc45c176a8fe47ba7a8d1f18fb7eb56b660ef434ba2228846a55e7a6d0b541245ae1acea980a8e38b3142540fd7a1e3f57c19c35f0a81a503"
     }
   }
 }
