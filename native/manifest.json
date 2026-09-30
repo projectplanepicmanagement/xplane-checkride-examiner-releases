@@ -1,16 +1,16 @@
 {
   "version": 6,
-  "notes": "Adds the AMEL rating (PPL/ASEL + AMEL edition), much finer GPS sampling for the flight-path map (every 0.5s instead of 10s), per-task deviation graphs and yoke/rudder/throttle control-input review charts (zoomable, with hover readouts and per-line show/hide toggles), and an update banner that shows what changed with a link to the full version history. Also fixes the deviation chart silently disappearing on tasks whose grading didn't start on the very first recorded tick.",
+  "notes": "Adds the AMEL rating (PPL/ASEL + AMEL edition), the Instrument Rating (nav tracking, holding, non-precision and precision approaches, missed approach), much finer GPS sampling for the flight-path map (every 0.5s instead of 10s), per-task deviation graphs and yoke/rudder/throttle control-input review charts (zoomable, with hover readouts and per-line show/hide toggles), and an update banner that shows what changed with a link to the full version history. Also fixes the deviation chart silently disappearing on tasks whose grading didn't start on the very first recorded tick.",
   "platforms": {
     "mac": {
       "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v6.zip",
-      "sha256": "fe1f8b666e97172bc64210d1f6a3256030ac9750fbd0bda488351336eb4e39c5",
-      "sig": "8e0bc6d825d41bd72375e8d135c7f2fc155c5cc5c894d13cac4cd2277faf1581984b8bdc08f692daad6c9921f56fa89ff878f11ee12f1f37a03d8acd4295590a"
+      "sha256": "e2bb0cc32610a7123a11597bab5a5a54bd75b3d414b9a984fa46596a06b3c458",
+      "sig": "7780b1ef438aa709dd687afc68945129393e0788f2b02c01a86f790d72e888d4eb487ac815529cd13b145d1d5ab422e10861efbed93b9a56c6473bd4743d420c"
     },
     "win": {
       "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v6.zip",
-      "sha256": "fe1f8b666e97172bc64210d1f6a3256030ac9750fbd0bda488351336eb4e39c5",
-      "sig": "2c9cdd41647f948bd4440c932a19476abc33fbc7ed2bc506b9edb150a5ddc894a45a8f0cf06445a338e3bb6511e70a8b5ac36e7a0cd7bfb9800a7eba751f3903"
+      "sha256": "e2bb0cc32610a7123a11597bab5a5a54bd75b3d414b9a984fa46596a06b3c458",
+      "sig": "56583ce962aa1b8e81a326257a1d4f3b1896ad93276deb5f3e6e006b0a25eb0dcae648aa5a22992e5851fa31a4674869749e0f396731afd6b603b50cb2b47f04"
     }
   }
 }
