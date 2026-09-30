@@ -1,16 +1,16 @@
 {
-  "version": 6,
-  "notes": "Smoother flight-path map: GPS samples now taken every 2 seconds during a checkride instead of every 10, so tight turns and pattern work trace a real curve instead of a jagged line.",
+  "version": 7,
+  "notes": "Even smoother flight-path map: GPS samples now taken every 0.5 seconds during a checkride.",
   "platforms": {
     "mac": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v6.zip",
-      "sha256": "f06ee5c3bbc1ec50801ad73aa2cd6ee231fa8e21e0bae2eab50180f593e26ab3",
-      "sig": "9493eeaec50ad9193080e20eac618358f55086d7817b8556c2e5f029e63a566f2c879a6ff62c53f1dd16e338aeb576497fd54c58ccdded75ac078c795457870e"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v7.zip",
+      "sha256": "41705da1fef9d762e01d9c1a81980f6eda0e73d0f6c212dce5197edd957a5102",
+      "sig": "9c429800f5d81136fb6c26ae1fc3e3c56f083a147570322917644056e45f826cb4444ed3f87d01f740d858b55abed7a2c278d59d66b045392017797fb88b3b09"
     },
     "win": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v6.zip",
-      "sha256": "f06ee5c3bbc1ec50801ad73aa2cd6ee231fa8e21e0bae2eab50180f593e26ab3",
-      "sig": "338c25c861e344e670d422e1aa73c678a56891dee2787288b1d2390b90568324a8ac0625b83b41021c626fd86b7193ca6a2dadd5a17774fa443d0f228fb57f0b"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v7.zip",
+      "sha256": "41705da1fef9d762e01d9c1a81980f6eda0e73d0f6c212dce5197edd957a5102",
+      "sig": "0f458acacf9aeb25341b516d0a661f90650aaaa13f9d60695d3dbd2e06d2cc22f5e4f0965499a4b0e7edb821f2d10e242140cae10b42344f5a766b7ce7fdbe03"
     }
   }
 }
