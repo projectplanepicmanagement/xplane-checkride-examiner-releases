@@ -1,16 +1,16 @@
 {
-  "version": 7,
-  "notes": "Even smoother flight-path map: GPS samples now taken every 0.5 seconds during a checkride.",
+  "version": 6,
+  "notes": "Smoother flight-path map: GPS samples now taken every 0.5 seconds during a checkride instead of every 10, so tight turns and pattern work trace a real curve instead of a jagged line.",
   "platforms": {
     "mac": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v7.zip",
-      "sha256": "41705da1fef9d762e01d9c1a81980f6eda0e73d0f6c212dce5197edd957a5102",
-      "sig": "9c429800f5d81136fb6c26ae1fc3e3c56f083a147570322917644056e45f826cb4444ed3f87d01f740d858b55abed7a2c278d59d66b045392017797fb88b3b09"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v6.zip",
+      "sha256": "fde2268f58ae0a0e82840896b7886d919ace30111844532fe1bc13fed2cf5937",
+      "sig": "18587c1b0b5d3a296ee1cc92d0f7211d64b0609fbcbf246dd405e1ebf97bad8f6a3261b4f5dbf6ebe5e729b7f7c92096dc727062f250993908b0912de38a8e01"
     },
     "win": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v7.zip",
-      "sha256": "41705da1fef9d762e01d9c1a81980f6eda0e73d0f6c212dce5197edd957a5102",
-      "sig": "0f458acacf9aeb25341b516d0a661f90650aaaa13f9d60695d3dbd2e06d2cc22f5e4f0965499a4b0e7edb821f2d10e242140cae10b42344f5a766b7ce7fdbe03"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel-v6.zip",
+      "sha256": "fde2268f58ae0a0e82840896b7886d919ace30111844532fe1bc13fed2cf5937",
+      "sig": "12fd998a5603194159d886ef35c964317efdba66073ddd47d34848a2a4b5bf18f7a43eb97e0e007afee876ad1e8a2df9b29c49f8e0f37ba998f4c691a590db0f"
     }
   }
 }
