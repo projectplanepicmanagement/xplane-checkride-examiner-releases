@@ -1,16 +1,16 @@
 {
-  "version": 8,
-  "notes": "Adds several PPL(ASEL/AMEL)-side fixes and features:\n- Fixes the \"Check for Updates\" button: a JS bug made the update-status banner on the report page silently blank (this only affected the update-status display, not grading).\n- Power-On/Power-Off Stall: optional Vso/Vs1 entry in Settings arms the stall off indicated airspeed too, for add-ons whose stall-warning sound never fires.\n- Turns to Headings: the assigned heading and turn direction (left/right) are now shown before you press Ready, not only after.\n- Turns Around a Point: more forgiving circle-completion check, so a normal correction turn no longer prevents the task from ever finishing.\n- Emergency Descent: optional target airspeed in Settings, instead of always grading around whatever speed it happened to be armed at.\n- Normal Approach and Landing now has its own approach-speed setting -- it was incorrectly reusing Short-Field's speed before.\n- Go-Around/Rejected Landing no longer needs Ready: it's watched for throughout the flight and graded whenever it happens.\n- The report page now shows a flight-path map for every flight, not just the latest, and each flight in History has its own page/link.",
+  "version": 9,
+  "notes": "Windows reliability and flight-school features:\n- Fixes settings, license, and pilot-profile saves silently failing after the first save on Windows (this could stop the license re-check from being recorded).\n- The Windows companion app is now built with Microsoft's compiler and carries publisher/version information, to reduce Windows Defender / SmartScreen warnings.\n- School Dashboard (optional, off by default): students of a flight school with a School License can sign in on the report page and upload a finished checkride's results (rating, aircraft, date, per-task pass/fail) for their instructor to see. Nothing is sent unless you sign in and press Upload.",
   "platforms": {
     "mac": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel_ir-v8.zip",
-      "sha256": "a4757a95872494f8b001fca25ca24c3a27d4c029e6f07028217a498c0c9888c2",
-      "sig": "7bf9b4d6e04c71cc84f6f2b2e32abbf7210d123e74b8a09d965c8577ebeb8c1ee983e1bd12bd74bd4a97242d776106c27b8fce7b48e181b0678a7b26ba32c502"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel_ir-v9.zip",
+      "sha256": "a5eb44c2934c4beaca6282b441403b465d7020b536a8e592dec15de73f8513e2",
+      "sig": "b97a79cbbd4c4d3baa27e0f2e5ea1309f543db8edd7ade6683a9ff8d646e8988413468d776c003ee140c90e023573b1cb9974866213c3a39108c39aa20dc4208"
     },
     "win": {
-      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel_ir-v8.zip",
-      "sha256": "a4757a95872494f8b001fca25ca24c3a27d4c029e6f07028217a498c0c9888c2",
-      "sig": "7c104483289aafbdc45c176a8fe47ba7a8d1f18fb7eb56b660ef434ba2228846a55e7a6d0b541245ae1acea980a8e38b3142540fd7a1e3f57c19c35f0a81a503"
+      "url": "https://raw.githubusercontent.com/projectplanepicmanagement/xplane-checkride-examiner-releases/main/native/releases/CheckrideExaminer-native-ppl_asel_ppl_amel_ir-v9.zip",
+      "sha256": "a5eb44c2934c4beaca6282b441403b465d7020b536a8e592dec15de73f8513e2",
+      "sig": "a1876448b9921f249b9db2ee0aa92496ddb50ea4ecff9c8878199c150797158c6b1c2353a2d04eca898425a89389f6fcb47e01a5a433d5a207ca2835e4156c0e"
     }
   }
 }
